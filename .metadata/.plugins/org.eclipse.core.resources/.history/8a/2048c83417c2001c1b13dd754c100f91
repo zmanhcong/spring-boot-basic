@@ -1,0 +1,6 @@
+package edu.poly.hello.model;
+
+//Đây là các anotation của lambok để giúp sinh ra các contructor và getter và setter
+public class Student {
+
+}

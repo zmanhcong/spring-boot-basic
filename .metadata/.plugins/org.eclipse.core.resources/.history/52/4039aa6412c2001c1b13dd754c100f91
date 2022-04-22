@@ -1,0 +1,42 @@
+package edu.poly.hello.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+@RequestMapping("students")
+public class StudentController {
+	@GetMapping("new")
+	public String newForm() {
+		return "students/new";   //hiển thị form new
+	}
+	
+	@PostMapping("saveOrUpdate") //thêm sửa xóa thì dùng post
+	public String saveOrUpdate(
+			@RequestParam(value = "studentId", required = false) String studentId,
+			@RequestParam("name") String name,
+			Model model) {
+		//phía server có thể nhìn được
+		System.out.println("student ID: " + studentId);
+		System.out.println("name: "+ name);
+		
+		//Hiển thị sang views
+		model.addAllAttributes("studentId",studentId)
+		return "students/edit";
+	}
+	
+	@RequestMapping("list")      //request data thì dùng request
+	public String list() {
+		return "students/list";
+	}
+	
+	@RequestMapping("search")     //request data thì dùng request
+	public String search() {
+		return "students/search";
+	}
+	
+}
