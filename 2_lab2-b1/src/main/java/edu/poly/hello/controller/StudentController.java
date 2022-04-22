@@ -1,8 +1,12 @@
 package edu.poly.hello.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,6 +17,16 @@ import edu.poly.hello.model.Student;
 @Controller
 @RequestMapping("students")
 public class StudentController {
+	@ModelAttribute("students")
+	public List<Student> getStudents(){
+		List<Student> list = new ArrayList<>();
+		
+		list.add(new Student("S01","Minh"));
+		list.add(new Student("S01","Hung"));
+		return list;
+	}
+	
+	
 	@GetMapping("new")
 	public String newForm() {
 		return "students/new";   //hiển thị form new

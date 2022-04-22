@@ -151,9 +151,20 @@
    <linked-el length="29" name="%0" offset="346" path="%1"/>
    <linked-el length="22" name="%2" offset="375" path="%3"/>
    <linked-el length="17" name="%4" offset="452" path="%3"/>
-   <linked-el length="17" name="%5" offset="452" path="%3"/>
-   <linked-el length="22" name="%5" offset="375" path="%3"/>
-   <linked-el length="9" name="%6" offset="314" path="%1"/>
+   <linked-el length="17" name="%5" offset="482" path="%6"/>
+   <linked-el length="12" name="%5" offset="513" path="%6"/>
+   <linked-el length="34" name="%5" offset="675" path="%6"/>
+   <linked-el length="38" name="%5" offset="557" path="%6"/>
+   <linked-el length="32" name="%5" offset="619" path="%6"/>
+   <linked-el length="17" name="%7" offset="452" path="%3"/>
+   <linked-el length="22" name="%7" offset="375" path="%3"/>
+   <linked-el length="9" name="%8" offset="314" path="%1"/>
+   <linked-el length="13" name="%9" offset="450" path="%6"/>
+   <linked-el length="17" name="%10" offset="482" path="%6"/>
+   <linked-el length="34" name="%10" offset="675" path="%6"/>
+   <linked-el length="38" name="%10" offset="557" path="%6"/>
+   <linked-el length="32" name="%10" offset="619" path="%6"/>
+   <linked-el length="12" name="%11" offset="513" path="%6"/>
   </el>
  </validation>
  <aliases>
@@ -164,9 +175,22 @@
   <alias
    path="/2_lab2-b1/src/main/webapp/WEB-INF/views/students/edit.jsp" value="%3"/>
   <alias path="student.name" value="%4"/>
-  <alias path="student" value="%5"/>
-  <alias path="name" value="%6"/>
+  <alias path="item" value="%5"/>
+  <alias path="student" value="%7"/>
+  <alias
+   path="/2_lab2-b1/src/main/webapp/WEB-INF/views/students/list.jsp" value="%6"/>
+  <alias path="name" value="%8"/>
+  <alias path="students" value="%9"/>
+  <alias path="item.studentId" value="%10"/>
+  <alias path="item.name" value="%11"/>
  </aliases>
  <includes/>
- <uris/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jstl/core_rt">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
 </kb-project>

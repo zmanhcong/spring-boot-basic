@@ -12,3 +12,4 @@ org.eclipse.jdt.core.compiler.problem.unhandledWarningToken=ignore
 org.eclipse.jdt.core.compiler.release=enabled
 org.eclipse.jdt.core.compiler.source=17
 org.eclipse.jdt.core.formatter.indent_switchstatements_compare_to_switch=true
+org.eclipse.jdt.core.timeoutForParameterNameFromAttachedJavadoc=50

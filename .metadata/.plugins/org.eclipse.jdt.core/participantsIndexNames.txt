@@ -9,6 +9,8 @@ C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\
 \2_lab2-b1\src\main\java
 C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3141309272.index
 \2_lab2-b1\src\main\java
+C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2316538195.index
+\2_lab3\src\main\java
 C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2566737782.index
 \2_lab2-buoi1\src\main\java
 C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3550609182.index
@@ -25,6 +27,8 @@ C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\
 \2_lab2-b1\src\main\java
 C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\72255613.index
 \2_lab2-b1\src\main\java
+C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4073491494.index
+\2_lab3\src\main\java
 C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4058155427.index
 \lambok-sharedata\src\main\java
 C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2825237455.index

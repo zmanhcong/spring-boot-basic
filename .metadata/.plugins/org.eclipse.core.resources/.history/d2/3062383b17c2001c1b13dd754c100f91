@@ -1,9 +1,0 @@
-package edu.poly.hello.model;
-
-import lombok.Data;
-
-//Đây là các anotation của lambok để giúp sinh ra các contructor và getter và setter
-@Data
-public class Student {
-
-}

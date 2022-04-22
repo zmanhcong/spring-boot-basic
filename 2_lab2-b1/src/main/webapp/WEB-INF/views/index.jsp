@@ -9,6 +9,7 @@
 <body>
 	<h1> Hello index form views</h1>
 	<hr />
-	<a href="students/new"> Add new Student</a>
+	<a href="students/new"> Add new Student</a> <hr>
+	<a href="students/list">List Student</a>
 </body>
 </html>
