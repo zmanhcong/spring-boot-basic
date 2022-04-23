@@ -8,7 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form:form action="/students/saveOrUpdate" method="post" modelAttribute="student">
+	<form:form action="/students/saveOrUpdate" method="post" modelAttribute="student"
+		enctype="multipart/form-data">
+		
 		Student ID: <form:input path="studentId" /> <br />
 		Name: <form:input path="name" /><br />
 		Email: <form:input path="email" /> <br />
@@ -22,6 +24,7 @@
 		Hobbies:
 		<form:checkboxes path="hobbies" items="${hobbies}"/>
 		<br />
+		<input type="file" name ="imageFile" /> <br />
 		
 		<form:button>Save</form:button>
 	</form:form>

@@ -1,6 +1,7 @@
 package edu.poly.hello.model;
 
 import java.util.List;
+import org.springframework.web.multipart.MultipartFile;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,4 +20,6 @@ public class Student {
 	
 	private Boolean gender;
 	private List<String> hobbies;
+	private MultipartFile imageFile;
+	private String imageUrl;
 }

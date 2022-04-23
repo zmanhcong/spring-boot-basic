@@ -1081,3 +1081,95 @@ org.eclipse.core.runtime.CoreException: Launch configuration Application referen
 2022-04-23 22:21:40,083 [Worker-60: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-04-23 22:21:40,087 [Worker-60: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-04-23 22:21:40,100 [Worker-60: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 22:21:40,100 [Worker-60: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-23 22:21:40,100 [Worker-60: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-23 23:55:09,742 [Worker-58: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 23:55:09,742 [Worker-58: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-23 23:55:09,743 [Worker-58: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-23 23:55:09,754 [Worker-58: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-23 23:55:09,756 [Worker-58: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 23:55:09,757 [Worker-58: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-23 23:55:09,757 [Worker-58: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-23 23:59:03,741 [Worker-71: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 23:59:03,741 [Worker-71: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-23 23:59:03,741 [Worker-71: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-23 23:59:03,741 [Worker-71: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-23 23:59:03,743 [Worker-71: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-23 23:59:03,743 [Worker-71: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-23 23:59:03,743 [Worker-71: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:12:40,598 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:12:40,598 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:12:40,598 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 00:12:40,605 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:12:40,607 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:12:40,607 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:12:40,607 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:13:32,280 [Worker-86: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:13:32,280 [Worker-86: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:13:32,280 [Worker-86: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:13:32,280 [Worker-86: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:13:32,282 [Worker-86: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:13:32,282 [Worker-86: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:13:32,282 [Worker-86: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:14:47,888 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:14:47,888 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:14:47,888 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:14:47,889 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:14:47,891 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:14:47,891 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:14:47,891 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:15:13,614 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:15:13,614 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:15:13,615 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 00:15:13,625 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:15:13,627 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:15:13,627 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:15:13,627 [Worker-82: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:15:45,263 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:15:45,263 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:15:45,263 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:15:45,263 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:15:45,265 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:15:45,265 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:15:45,265 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:27:02,671 [Worker-96: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:27:02,672 [Worker-96: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:27:02,672 [Worker-96: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 00:27:02,676 [Worker-96: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:27:02,678 [Worker-96: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:27:02,678 [Worker-96: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:27:02,678 [Worker-96: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:28:00,095 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:28:00,095 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:28:00,096 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:28:00,096 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:28:00,097 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:28:00,097 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:28:00,097 [Worker-85: Launching Application (2)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:38:11,352 [Worker-93: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:38:11,352 [Worker-93: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:38:11,354 [Worker-93: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:38:11,354 [Worker-93: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:38:11,355 [Worker-93: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:38:11,355 [Worker-93: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:38:11,355 [Worker-93: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:41:22,640 [Worker-108: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:41:22,640 [Worker-108: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:41:22,641 [Worker-108: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 00:41:22,645 [Worker-108: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:41:22,666 [Worker-108: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:41:22,666 [Worker-108: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:41:22,667 [Worker-108: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:48:27,226 [Worker-102: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:48:27,227 [Worker-102: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:48:27,227 [Worker-102: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 00:48:27,234 [Worker-102: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:48:27,235 [Worker-102: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:48:27,235 [Worker-102: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:48:27,235 [Worker-102: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 00:49:44,107 [Worker-113: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:49:44,107 [Worker-113: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 00:49:44,108 [Worker-113: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 00:49:44,112 [Worker-113: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 00:49:44,114 [Worker-113: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 00:49:44,114 [Worker-113: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
