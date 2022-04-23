@@ -1,5 +1,7 @@
 package edu.poly.hello.model;
 
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,4 +16,7 @@ public class Student {
 	private String email;
 	private Double mark;
 	private String faculty;
+	
+	private Boolean gender;
+	private List<String> hobbies;
 }

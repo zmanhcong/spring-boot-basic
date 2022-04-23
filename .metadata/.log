@@ -8042,3 +8042,183 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 !SUBENTRY 1 org.eclipse.core.expressions 4 201 2022-04-23 18:28:27.787
 !MESSAGE No property tester contributes a property org.jboss.ide.eclipse.as.ui.eapxp to type class org.eclipse.jdt.internal.core.CompilationUnit
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:45:50.935
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:45:51.842
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:47:04.067
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:47:37.400
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:47:40.376
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:54:52.030
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:54:52.573
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:54:53.228
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:54:54.818
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2022-04-23 21:55:23.432
+!MESSAGE INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+!STACK 0
+org.w3c.dom.DOMException: INVALID_CHARACTER_ERR: 無効または不正なXML文字が指定されています。
+	at java.xml/com.sun.org.apache.xerces.internal.dom.CoreDocumentImpl.createAttribute(CoreDocumentImpl.java:573)
+	at java.xml/com.sun.org.apache.xerces.internal.dom.ElementImpl.setAttribute(ElementImpl.java:503)
+	at org.jboss.tools.vpe.preview.core.template.VpvDefaultTemplate.create(VpvDefaultTemplate.java:39)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:86)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.convertNode(VpvDomBuilder.java:123)
+	at org.jboss.tools.vpe.preview.core.transform.VpvDomBuilder.buildVisualModel(VpvDomBuilder.java:49)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getVisualModel(VpvController.java:145)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:62)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.base/java.lang.Thread.run(Thread.java:833)
