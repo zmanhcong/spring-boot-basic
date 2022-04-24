@@ -20,11 +20,11 @@ import lombok.NoArgsConstructor;
 public class Student {
 	@NotEmpty
 	private String studentId;
-	@NotEmpty
+	@NotEmpty(message = "Name is not empty")
 //	@Min(value = 4)
 	private String name;
-	@Email
-	@NotEmpty
+	@Email(message = "Email type is not true")
+	@NotEmpty(message = "Email is not empty")
 	private String email;
 	@Min(value = 0)
 	@Max(value = 10)

@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
@@ -12,11 +12,9 @@
 		enctype="multipart/form-data">
 		
 		Student ID: <form:input path="studentId" /> <br />
-		Name: <form:input path="name" /> 
-		<span id="name.errors" style="color:red" class="error">name is required!</span>
+		Name: <form:input path="name" /> <form:errors style="color:red" path="name"/> 
 		<br />
-		Email: <form:input path="email" />  
-		<span id="name.email" style="color:red" class="error">email is required!</span>
+		Email: <form:input path="email" />  <form:errors style="color:red" path="email"/> 
 		 <br />
 		Mark: <form:input path="mark" /> <form:errors path="mark"/> <br />
 		Faculty: 
