@@ -12,11 +12,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.3.19.jar/meta-inf/spring-form.tld" project="hello-spring"/>
+      path="FileSystems/lib-spring-webmvc-5.3.19.jar/meta-inf/spring-form.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.3.19.jar/meta-inf/spring.tld" project="hello-spring"/>
+      path="FileSystems/lib-spring-webmvc-5.3.19.jar/meta-inf/spring.tld" project="2_lab4"/>
     </library>
    </libraries>
   </path>
@@ -69,63 +69,63 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="2_lab4"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="hello-spring"/>
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="2_lab4"/>
     </library>
    </libraries>
   </path>

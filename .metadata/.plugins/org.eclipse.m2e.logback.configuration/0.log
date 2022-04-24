@@ -1330,3 +1330,147 @@ org.eclipse.core.runtime.CoreException: Launch configuration Application referen
 2022-04-24 12:30:31,070 [Worker-59: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-04-24 12:30:31,070 [Worker-59: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-04-24 12:30:31,070 [Worker-59: Launching 2_lab3 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab3\src\test\resources
+2022-04-24 15:35:37,568 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.poly:4_lab4:0.0.1-SNAPSHOT @ C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_lab4\pom.xml.
+2022-04-24 15:35:38,486 [Worker-69: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /4_lab4/src/main/java
+2022-04-24 15:35:38,487 [Worker-69: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /4_lab4/src/main/resources
+2022-04-24 15:35:38,494 [Worker-69: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /4_lab4/src/main/resources
+2022-04-24 15:35:38,500 [Worker-69: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /4_lab4/src/test/java
+2022-04-24 15:35:39,433 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:35:39,434 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:35:39,435 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:35:39,438 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 15:35:39,442 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:35:39,442 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:35:39,442 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_lab4\src\test\resources
+2022-04-24 15:35:40,486 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2022-04-24 15:35:40,489 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-24 15:35:40,698 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.poly:4_lab4:0.0.1-SNAPSHOT @ C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_lab4\pom.xml.
+2022-04-24 15:35:41,051 [Worker-69: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /4_lab4/src/main/java
+2022-04-24 15:35:41,052 [Worker-69: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /4_lab4/src/main/resources
+2022-04-24 15:35:41,052 [Worker-69: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /4_lab4/src/main/resources
+2022-04-24 15:35:41,053 [Worker-69: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /4_lab4/src/test/java
+2022-04-24 15:35:41,990 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:35:41,991 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:35:41,991 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:35:41,994 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 15:35:41,996 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:35:41,997 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:35:41,997 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_lab4\src\test\resources
+2022-04-24 15:35:42,243 [Worker-69: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-04-24 15:36:36,588 [Worker-74: Build Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.poly:lab3:0.0.1-SNAPSHOT @ C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_lab4\pom.xml.
+2022-04-24 15:36:36,717 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:36:36,717 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:36:36,718 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:36:36,720 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 15:36:36,721 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:36:36,722 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:36:36,722 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_lab4\src\test\resources
+2022-04-24 15:36:36,962 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:36:36,963 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:36:36,963 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:36:36,976 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 15:36:36,979 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:36:36,980 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:36:36,980 [Worker-74: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_lab4\src\test\resources
+2022-04-24 15:37:21,545 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-24 15:37:21,664 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.poly:lab3:0.0.1-SNAPSHOT @ C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_test\pom.xml.
+2022-04-24 15:37:21,926 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:37:21,926 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:37:21,927 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:37:21,929 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:37:21,938 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:37:21,938 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:37:21,938 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_test\src\test\resources
+2022-04-24 15:37:22,086 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /4_test/src/main/java
+2022-04-24 15:37:22,087 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /4_test/src/main/resources
+2022-04-24 15:37:22,087 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /4_test/src/main/resources
+2022-04-24 15:37:22,088 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /4_test/src/test/java
+2022-04-24 15:37:22,926 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:37:22,926 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:37:22,927 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:37:22,929 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:37:22,933 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:37:22,934 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:37:22,934 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_test\src\test\resources
+2022-04-24 15:37:23,028 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-04-24 15:38:19,063 [Worker-58: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.poly:lab3:0.0.1-SNAPSHOT @ C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\4_test\pom.xml.
+2022-04-24 15:39:12,088 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-24 15:39:12,286 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.poly:lab3:0.0.1-SNAPSHOT @ C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\pom.xml.
+2022-04-24 15:39:12,661 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:39:12,662 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:39:12,663 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:39:12,680 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:39:12,685 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:39:12,685 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:39:12,685 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
+2022-04-24 15:39:13,044 [Worker-70: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /2_lab4/src/main/java
+2022-04-24 15:39:13,045 [Worker-70: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /2_lab4/src/main/resources
+2022-04-24 15:39:13,045 [Worker-70: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /2_lab4/src/main/resources
+2022-04-24 15:39:13,045 [Worker-70: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /2_lab4/src/test/java
+2022-04-24 15:39:13,858 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:39:13,859 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:39:13,861 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:39:13,866 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 15:39:13,871 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 15:39:13,872 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 15:39:13,872 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
+2022-04-24 15:39:13,977 [Worker-70: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-04-24 16:18:01,442 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-24 17:17:37,927 [Worker-36: Launching 2_lab4 - Application] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.poly:lab4:0.0.1-SNAPSHOT @ C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\pom.xml.
+2022-04-24 17:17:38,983 [Worker-36: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:17:38,984 [Worker-36: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:17:38,987 [Worker-36: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 17:17:39,003 [Worker-36: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 17:17:39,006 [Worker-36: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:17:39,007 [Worker-36: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:17:39,007 [Worker-36: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
+2022-04-24 17:23:03,965 [Worker-42: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:23:03,966 [Worker-42: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:23:03,968 [Worker-42: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 17:23:03,977 [Worker-42: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 17:23:03,979 [Worker-42: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:23:03,979 [Worker-42: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:23:03,979 [Worker-42: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
+2022-04-24 17:26:32,135 [Worker-39: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:26:32,136 [Worker-39: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:26:32,136 [Worker-39: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 17:26:32,142 [Worker-39: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 17:26:32,143 [Worker-39: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:26:32,144 [Worker-39: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:26:32,144 [Worker-39: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
+2022-04-24 17:35:15,969 [Worker-51: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:35:15,970 [Worker-51: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:35:15,971 [Worker-51: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 17:35:15,975 [Worker-51: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 17:35:15,977 [Worker-51: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:35:15,977 [Worker-51: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:35:15,977 [Worker-51: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
+2022-04-24 17:36:38,432 [Worker-48: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:36:38,433 [Worker-48: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:36:38,433 [Worker-48: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 17:36:38,437 [Worker-48: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 17:36:38,439 [Worker-48: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:36:38,439 [Worker-48: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:36:38,439 [Worker-48: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
+2022-04-24 17:37:54,277 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-24 17:39:30,198 [Worker-13: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:39:30,200 [Worker-13: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:39:30,203 [Worker-13: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 17:39:30,229 [Worker-13: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 17:39:30,234 [Worker-13: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:39:30,234 [Worker-13: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:39:30,234 [Worker-13: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
+2022-04-24 17:40:54,901 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:40:54,901 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:40:54,902 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 17:40:54,902 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 17:40:54,906 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:40:54,906 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:40:54,906 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
+2022-04-24 17:41:44,548 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:41:44,548 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:41:44,551 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-24 17:41:44,564 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-24 17:41:44,568 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-24 17:41:44,568 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-24 17:41:44,568 [Worker-14: Launching 2_lab4 - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\2_lab4\src\test\resources
