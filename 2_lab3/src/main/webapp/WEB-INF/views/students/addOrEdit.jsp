@@ -12,9 +12,13 @@
 		enctype="multipart/form-data">
 		
 		Student ID: <form:input path="studentId" /> <br />
-		Name: <form:input path="name" /><br />
-		Email: <form:input path="email" /> <br />
-		Mark: <form:input path="mark" /> <br />
+		Name: <form:input path="name" /> 
+		<span id="name.errors" style="color:red" class="error">name is required!</span>
+		<br />
+		Email: <form:input path="email" />  
+		<span id="name.email" style="color:red" class="error">email is required!</span>
+		 <br />
+		Mark: <form:input path="mark" /> <form:errors path="mark"/> <br />
 		Faculty: 
 		<form:select path="faculty" items="${faculties}"></form:select>
 		<br />
