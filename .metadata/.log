@@ -4780,3 +4780,246 @@ Binding(CTRL+D,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2022-04-24 17:43:37.860
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-04-24 17:43:44.758
+!MESSAGE Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+!STACK 0
+java.io.IOException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.jgit.util.FileUtils.handleDeleteException(FileUtils.java:232)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:225)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFiles(GitProjectData.java:586)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFilesAndUncache(GitProjectData.java:580)
+	at org.eclipse.egit.core.project.GitProjectData.delete(GitProjectData.java:241)
+	at org.eclipse.egit.core.project.GitProjectData$RCL.resourceChanged(GitProjectData.java:91)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:271)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:376)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreMoveEvent(Resource.java:1887)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1498)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:191)
+	... 23 more
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2022-04-24 17:43:44.842
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1520)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Error updating cache during move/delete.
+The resource cannot be moved, renamed or deleted due to an internal error.
+org.eclipse.team.core.TeamException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.team.internal.core.TeamPlugin.wrapException(TeamPlugin.java:160)
+	at org.eclipse.team.core.RepositoryProvider.unmap(RepositoryProvider.java:321)
+	at org.eclipse.egit.core.GitMoveDeleteHook.unmapProject(GitMoveDeleteHook.java:293)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProjectHelperMoveOnlyProject(GitMoveDeleteHook.java:365)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProject(GitMoveDeleteHook.java:335)
+	at org.eclipse.team.internal.core.MoveDeleteManager.moveProject(MoveDeleteManager.java:104)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1844)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1508)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.egit.core.GitProvider.deconfigure(GitProvider.java:74)
+	at org.eclipse.team.core.RepositoryProvider.unmap(RepositoryProvider.java:301)
+	... 18 more
+Caused by: java.io.IOException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.jgit.util.FileUtils.handleDeleteException(FileUtils.java:232)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:225)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFiles(GitProjectData.java:586)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFilesAndUncache(GitProjectData.java:580)
+	at org.eclipse.egit.core.project.GitProjectData.deconfigure(GitProjectData.java:259)
+	at org.eclipse.egit.core.GitProvider.deconfigure(GitProvider.java:72)
+	... 19 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:191)
+	... 23 more
+!SUBENTRY 1 org.eclipse.core.resources 4 4 2022-04-24 17:43:44.842
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.egit.core 4 0 2022-04-24 17:43:44.842
+!MESSAGE Error updating cache during move/delete.
+The resource cannot be moved, renamed or deleted due to an internal error.
+!STACK 1
+org.eclipse.team.core.TeamException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.team.internal.core.TeamPlugin.wrapException(TeamPlugin.java:160)
+	at org.eclipse.team.core.RepositoryProvider.unmap(RepositoryProvider.java:321)
+	at org.eclipse.egit.core.GitMoveDeleteHook.unmapProject(GitMoveDeleteHook.java:293)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProjectHelperMoveOnlyProject(GitMoveDeleteHook.java:365)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProject(GitMoveDeleteHook.java:335)
+	at org.eclipse.team.internal.core.MoveDeleteManager.moveProject(MoveDeleteManager.java:104)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1844)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1508)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.egit.core.GitProvider.deconfigure(GitProvider.java:74)
+	at org.eclipse.team.core.RepositoryProvider.unmap(RepositoryProvider.java:301)
+	... 18 more
+Caused by: java.io.IOException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.jgit.util.FileUtils.handleDeleteException(FileUtils.java:232)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:225)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFiles(GitProjectData.java:586)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFilesAndUncache(GitProjectData.java:580)
+	at org.eclipse.egit.core.project.GitProjectData.deconfigure(GitProjectData.java:259)
+	at org.eclipse.egit.core.GitProvider.deconfigure(GitProvider.java:72)
+	... 19 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:191)
+	... 23 more
+!SUBENTRY 3 org.eclipse.team.core 4 0 2022-04-24 17:43:44.842
+!MESSAGE Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.egit.core.GitProvider.deconfigure(GitProvider.java:74)
+	at org.eclipse.team.core.RepositoryProvider.unmap(RepositoryProvider.java:301)
+	at org.eclipse.egit.core.GitMoveDeleteHook.unmapProject(GitMoveDeleteHook.java:293)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProjectHelperMoveOnlyProject(GitMoveDeleteHook.java:365)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProject(GitMoveDeleteHook.java:335)
+	at org.eclipse.team.internal.core.MoveDeleteManager.moveProject(MoveDeleteManager.java:104)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1844)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1508)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.IOException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.jgit.util.FileUtils.handleDeleteException(FileUtils.java:232)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:225)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFiles(GitProjectData.java:586)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFilesAndUncache(GitProjectData.java:580)
+	at org.eclipse.egit.core.project.GitProjectData.deconfigure(GitProjectData.java:259)
+	at org.eclipse.egit.core.GitProvider.deconfigure(GitProvider.java:72)
+	... 19 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:191)
+	... 23 more
+!SUBENTRY 4 org.eclipse.egit.core 4 0 2022-04-24 17:43:44.842
+!MESSAGE Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+!STACK 0
+java.io.IOException: Could not delete file C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at org.eclipse.jgit.util.FileUtils.handleDeleteException(FileUtils.java:232)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:225)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFiles(GitProjectData.java:586)
+	at org.eclipse.egit.core.project.GitProjectData.deletePropertyFilesAndUncache(GitProjectData.java:580)
+	at org.eclipse.egit.core.project.GitProjectData.deconfigure(GitProjectData.java:259)
+	at org.eclipse.egit.core.GitProvider.deconfigure(GitProvider.java:72)
+	at org.eclipse.team.core.RepositoryProvider.unmap(RepositoryProvider.java:301)
+	at org.eclipse.egit.core.GitMoveDeleteHook.unmapProject(GitMoveDeleteHook.java:293)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProjectHelperMoveOnlyProject(GitMoveDeleteHook.java:365)
+	at org.eclipse.egit.core.GitMoveDeleteHook.moveProject(GitMoveDeleteHook.java:335)
+	at org.eclipse.team.internal.core.MoveDeleteManager.moveProject(MoveDeleteManager.java:104)
+	at org.eclipse.core.internal.resources.Resource.unprotectedMove(Resource.java:1844)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1508)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\zmanh\Documents\workspace-spring-tool-suite-4-4.14.0.RELEASE\.metadata\.plugins\org.eclipse.core.resources\.projects\2_lab4\org.eclipse.egit.core
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.delete(AbstractFileSystemProvider.java:105)
+	at java.base/java.nio.file.Files.delete(Files.java:1152)
+	at org.eclipse.jgit.util.FileUtils.delete(FileUtils.java:191)
+	... 23 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-24 17:43:53.883
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.Eutfprzy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-24 17:43:53.884
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.Eutfprzy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-24 17:43:53.885
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-24 17:43:53.887
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.Eutfprzy => OK
