@@ -18,6 +18,7 @@
 		<td>Quantity</td>
 		<td>Price</td>
 		<td></td>
+
 	</tr>
 	<c:forEach var="item" items="${products}">
 	<tr>
